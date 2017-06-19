@@ -1,0 +1,8 @@
+.tagItem {
+    display: inline-block;
+    font-weight: 500;
+    padding: 5px;
+    background: gainsboro;
+    border-radius: 10px;
+    margin: 5px;
+}

@@ -1,0 +1,115 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+/* Styles */
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+}
+
+.icon {
+	display: block;
+}
+
+#app {
+  	background: url(/resources/imgs/bg2.jpg);
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+td {
+	padding: 12px;
+}
+
+h2 {
+	color: $vin-blue;
+}
+
+.legend {
+	text-align: right;
+	font-size: 70%;
+}
+
+a {
+	font-weight: 500;
+}
+
+.tag {
+	background: gray;
+	padding: 1px 5px;
+	margin: 5px;
+}
+
+section, .item {
+	width: 90%;
+	background: aliceblue;
+	border: 2px solid #e22222;
+	border-radius: 30px;
+	padding: 2%;
+	margin: 2%;
+}
+
+input {
+	width: 500px;
+	margin: auto auto;
+	padding: 10px;
+	border: 2px solid #b3b0b0;
+	border-radius: 10px; 
+	display: block;
+}
+
+// CUSTOM
+.tip {
+	margin: 10px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.video-list {
+	border: 1px solid #cacaca;
+    border-radius: 6px;
+    padding-right: 0;
+}
+
+#audioButtons {
+    li {
+        display: inline-block;
+    }
+    a, button {
+        margin: 3px;
+        width: 50px;
+        background: dimgrey;
+        color: beige;
+    }
+    #download:hover {
+      background: blue;
+    }
+    #remove:hover {
+      background: red;
+    }
+    #continue:hover {
+      background: green;
+    }
+}
+
+.icon img {
+	cursor: pointer; 
+}
+
+.ad {
+	margin: 10px;
+	width: 50%;
+	text-align: center;
+}
+
+.fb_container button {
+	width: 297px;
+}
+
+// MEDIA
+.savings { color: $vin-green; }
+.loss { color: $vin-red; }
+input.small { width: 46px; }
+td.fuel-savings-label { width: 175px; }

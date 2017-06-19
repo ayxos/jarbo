@@ -1,0 +1,15 @@
+#audioButtons button.icon img, #audioButtons a.icon img {
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    min-height: 580px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .container {
+    min-height: 930px;
+  }
+}

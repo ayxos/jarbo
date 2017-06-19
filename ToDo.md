@@ -1,0 +1,5 @@
+- comments
+- rank - DONE CLICK, LEFT UNCLICK!
+- pret page - DONE
+- most ranked users
+- tag cloud - DONE - LEFT LINK!

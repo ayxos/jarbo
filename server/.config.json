@@ -1,0 +1,4 @@
+{
+  "dbUri": "MONGODDBBLINK=mongodb://doblame:doblame@ds143211.mlab.com:43211/doblame",
+  "jwtSecret": "a secret phrase!!"
+}
